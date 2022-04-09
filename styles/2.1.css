@@ -1,0 +1,187 @@
+body {font-family: Arial;
+margin: 0px;
+background-image: linear-gradient(to right top, pink 0%, white 40%, yellow 100%);
+}
+
+header {
+background-color: white;
+height: 80px;
+margin-bottom: 20px;
+}
+.pos1, .pos2, .pos3, .pos4 {
+position: absolute;
+}
+
+.pos1 {
+left: 0px;
+top: 0px;
+width: 160px;
+}
+
+.pos1 img {
+height: 100px;
+width: 200px;
+}
+
+.pos2 {
+left: 160px;
+top: 0px;
+right: 0px;
+}
+
+.pos2 h1 {
+font: bold italic 42pt Verdana;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 10pt;
+margin: 0px;
+background-image: linear-gradient(to right top, pink 0%, white 30%, yellow 100%);
+color: red;
+padding-top: 30px;
+}
+
+.pos3 {
+left: 160px;
+top: 0px;
+right: 0px;
+}
+
+.pos3 h1 {
+font: bold italic 18pt Verdana;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 6pt;
+margin: 0px;
+color: blue;
+}
+
+main {
+text-align: justify;
+}
+
+footer {
+text-align: right;
+background-color: pink;
+height: 150px;
+position: relative;
+}
+
+.pos4 {
+top: 0px;
+right: 20px;
+bottom: 0px;
+}
+
+p {
+font-size: 14pt;
+}
+
+aside {
+float: right;
+margin: 20px 0px 20px 20px;
+padding: 5px;
+color: red;
+background-color: yellow;
+text-align: center;
+font-size: 16pt;
+}
+
+aside img {height: 350px;}
+
+
+div {
+font-size: 12pt;
+margin-bottom: 5pt;
+margintop: 5 pt;
+}
+
+nav {
+float: left;
+width: 150px;
+margin: 10px 30px 10px 0px;
+padding: 10px;
+border: black medium double;
+border-radius: 10px;
+}
+
+nav div, nav a {
+font-size: 20pt;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+nav a {display: block;}
+
+nav a:active, nav a:hover {
+color: blue;
+text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+color: darkred;
+text-decoration: none;
+}
+
+p.greeting {
+font-size: 14pt;
+font: bold italic;
+color: blue;
+}
+
+.bigger {
+font-size: 16pt;
+margin-bottom: 30px;
+}
+
+table.pricelist th, table.pricelist td {
+ border: blue thin solid;
+ padding: 4px;
+}
+
+table.pricelist tfoot {
+ color: blue;
+ text-aline: right;
+ font-style: italic;
+}
+ 
+table.pricelist thead th {
+ color: white;
+ background-color: grey;
+}
+
+
+table.pricelist td [colspan] {
+text-align: center;
+}
+
+table.pricelist td:last-child:not(:only-child) {
+background-color: lightgrey;
+border: none;
+}
+
+
+table.catalog td {
+ border-top: black thin dotted;
+ border-bottom: black thin dotted;
+ padding: 10px;
+}
+
+table.catalog h3 {
+text-transform: capitalize;
+font-variant: small-caps;
+letter-spacing: 2pt;
+}
+
+table.catalog td p:first-of-type::first-letter {
+font-size: 24pt;
+vertical-align: text-top;
+}
+
+
+table.catalog img {width: 200px;}
+
+
+
+ul {list-style: square inside;}
+
+ol {list-style: upper-alpha outside;}
